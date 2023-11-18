@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Management App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Health Management App</h1>
+        <div id="phLevel">
+            <h2>pH Level Monitor</h2>
+            <div id="phBarContainer">
+                <div id="phBar"><span id="phValue">7.4</span></div>
+            </div>
+            <div id="sensorStatus">Sensor Status: <span id="statusIndicator">Connected</span></div>
+            <button id="moreLink">Click for pH Graph</button>
+            <div id="pHGraph">
+                <canvas id="pHGraphCanvas"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
