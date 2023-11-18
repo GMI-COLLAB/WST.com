@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#app {
+    text-align: center;
+}
+
+#phBarContainer {
+    width: 80%;
+    height: 20px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+}
+
+#phBar {
+    height: 100%;
+    background-color: blue;
+    width: 50%; /* Example width */
+}
+
+#phValue {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    padding: 0 5px;
+}
+
+#sensorStatus {
+    margin-top: 10px;
+}
+
+#statusIndicator {
+    font-weight: bold;
+    color: green; /* Change color based on status */
+}
+
+#pHGraph {
+    display: none;
+}
+
+#pHGraphCanvas {
+    width: 90vw;
+    height: 45vh;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
